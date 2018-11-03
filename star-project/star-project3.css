@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(11, 7, 34)
+}
+
+.circle {
+    width:130px;
+    height:130px;
+    border: solid 2px white; 
+    border-radius: 50%;
+    cursor: pointer; 
+    position: relative;
+}
+
+.words {
+    color: white; 
+    text-decoration: none; 
+    font-size: 40px;
+    align-items: center;
+    position: absolute;
+    top:70px;
+    left:50%;
+}
+
+.circle1{  
+    border: solid 2px rgb(141, 135, 180); 
+    border-radius: 50%;
+    width:110px;
+    height:110px;
+    background-color: rgb(141, 135, 180);
+    position: relative;
+    bottom: 124px;
+    left: 10px;
+}
