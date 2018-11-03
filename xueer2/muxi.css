@@ -113,6 +113,24 @@
     padding-top:40px;
     padding-left: 102px;
   }
+  .box1:hover .type1{
+    color:rgba(244, 67, 54, 1);
+  }
+  .box1:hover .type2{
+    color:rgba(244, 67, 54, 1);
+  }
+  .box2:hover .type1{
+    color:rgba(244, 67, 54, 1);
+  }
+  .box2:hover .type2{
+    color:rgba(244, 67, 54, 1);
+  }  
+  .box3:hover .type1{
+    color:rgba(244, 67, 54, 1);
+  }
+  .box3:hover .type2{
+    color:rgba(244, 67, 54, 1);
+  }
   .type1{
     font-size:14px;
     font-family:PingFangSC-Light;
@@ -221,7 +239,7 @@
     align-items:center;
     justify-content:center;
   }
-  .z{
+  .x:hover{
     width:140px;
     height:105px;
     background:rgba(29,192,145,1);
@@ -283,19 +301,10 @@
     justify-content:center;
 
   }
-.a2{
-  width:175px;
-  height:105px;
-  background:rgba(244,67,54,1);
-  font-size:18px;
-  font-family:PingFangSC-Light;
-  font-weight:300;
-  color:rgba(255,255,255,1);
-  display:flex; 
-  flex-direction: row;
-  align-items:center;
-  justify-content:center;
-}
+  .a1:hover{
+    background:rgba(244,67,54,1);
+    opacity:1;
+  }
 .last{
   width:1440px;
   height:120px;
