@@ -39,9 +39,10 @@ a{
   width:40px;
   height:80px;
   font-size:20px ;
-  line-height: 80px;
+  line-height: 74px;
   color:rgba(244,67,54,1);
   margin-left:56px;
+  border-top:6px solid transparent;
 }
 .word_b:hover{
   border-top:6px solid rgba(244,67,54,1);
@@ -52,11 +53,12 @@ a{
   height:80px;
   font-size:20px;
   color:rgba(102,102,102,1);
-  line-height:80px;
+  line-height:74px;
   margin-left:70px;
+  border-top: 6px solid transparent;
 }
 .word_c:hover{
-  border-top:7px solid rgba(102,102,102,1);
+  border-top:6px solid rgba(102,102,102,1);
   line-height:74px;
 }
 .logo_b{
