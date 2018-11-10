@@ -164,13 +164,13 @@ a{
   line-height: 17px;
 }
 .circle_b{
-  width:27px;
-  height:27px;
+  width:29px;
+  height:29px;
   border:1px solid rgba(29, 192, 145, 1);
   border-radius: 50%;
   margin:30px auto;
-  padding-right:1.5px;
-  line-height: 24px;
+  line-height: 26px;
+  text-align: center;
   font-size: 35px;
   color: rgba(29, 192, 145, 1);
 }
@@ -223,7 +223,9 @@ a{
   justify-content:center;
   color:rgba(244,67,54,1);
   line-height:67px;
-  text-decoration:underline;
+}
+  .word-style{
+  border-bottom: 2px solid rgba(244,67,54,1);
 }
   .part_a:hover{
   width:140px;
