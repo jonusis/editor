@@ -5,9 +5,9 @@ body{
   width:100%;
   height:80px;
   background:rgba(255,255,255,1);
-  display:flex;
 }
 .header_a{
+  height:80px;
   margin: 0 auto;
   width:1000px;
   display:flex;
