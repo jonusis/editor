@@ -1,3 +1,6 @@
+html{
+    font-size: 10px;
+}
 body{
     background: #152025;
 }
@@ -5,11 +8,11 @@ body{
     display: inline-block;
 }
 .x{
-    height:35px;
+    height:2rem;
 }
 .y{
-    height:70px;
-    width:70px;
+    height:7rem;
+    width:7rem;
 }
 .flex{
     display: flex;
@@ -17,117 +20,107 @@ body{
     align-items: center;
 }
 .header{
-    height:100px;
-    min-width: 190px;
-    padding:0 30px;
+    height:6rem;
+    padding:0 2rem;
     background: rgba(32, 53, 60, 1);
 }
 .title-word{
-    font-size:36px;
+    font-size:3.6rem;
     color:rgba(255,251,220,1);
 }
 .mumber-introduction{
     width: 95%;
-    margin-top: 60px;
+    margin-top: 6rem;
     margin-left:auto;
     margin-right:auto;
-    min-width: 684px;
-}
-.line{
-    margin-top:3.5vh;
-    font-size: 0;
-    width: 1px;
-    position: absolute;
-    left:5.9vw;
-    height: 465vh;
-    background:#F5FBDC;
-}
-.team-name-box{
-    height:113px;
-    margin-top:3.5vh;
 }
 .logo{
-    width:123px;
-    height:113px;
+    width:8rem;
+    height:8rem;
     position: relative;
     vertical-align: middle;
 }
 .team-name{
-    font-size: 32px;
+    font-size: 2.5rem;
     line-height:0.85em;
     font-weight: bold;
-    border-bottom:solid 10px rgba(159, 195, 217, 1);
+    border-bottom:solid 1rem rgba(159, 195, 217, 1);
     color: #FFFBDC;
-    width: 180px;
+    width: 14rem;
 }
 .dot{
-    position: relative;
-    margin-left: 3.2vw;
-    margin-top: 20px;
-    height: 8px;
-    width: 8px;
+    height: 1vw;
+    width: 1vw;
     background: #FFFBDC;
     border-radius: 50%;
     font-size: 0;
 }
-.dot-t{
+.dot-t{ 
     position: relative;
-    margin-left: 3.2vw;
-    margin-top: 20px;
-    height: 16px;
-    width: 16px;
-    margin-left: 2.8vw;
+    height: 1.6rem;
+    width: 1.6rem;
     background: #FFFBDC;
     border-radius: 50%;
     font-size: 0;
 }
 .year{
-    width: 64px;
-    margin-top: 20px;
-    font-size: 18px;
+    width: 6.4rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
     color: #FFFBDC;
-    border-bottom: solid 10px #9FC3D9;
+    border-bottom: solid 1rem #9FC3D9;
     margin-left: 1vw;
-    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
     line-height: 0.75rem;
 }
 .self-box{
-    padding-left: 5vw;
+    padding-left: 1.5vw;
     width:26vw;
-    height:305px;
+    margin-bottom: 20px;
 }
 .box{
-    min-height:227px;
-    max-height:280px;
-    min-width: 190px;
+    min-width: 20vw;
     border:1px solid rgba(59, 79, 88, 1);
-    border-radius: 10px;
-    padding:12px;
+    border-radius: 1rem;
+    padding:1.2rem;
     background: rgba(58, 78, 87, 1);
 }
+.box-a{
+    min-width: 20vw;
+}
 .circle{
-    width: 100px;
-    height: 100px;
+    width: 5rem;
+    height: 5rem;
     background: rgba(191, 191, 191, 1);
     margin: 0 auto;
-    border-radius: 50px;
-    font-size:28px;
+    border-radius: 2.5rem;
+    font-size:1.4rem;
     text-align: center;
-    line-height: 100px;
+    line-height: 5rem;
     color:rgba(245, 251, 220, 1);
 }
 .font-style{
-    font-size: 20px;
+    font-size: 1rem;
     color: rgba(245, 251, 220, 1);
-    line-height: 30px;
+    line-height: 1.5rem;
 }
 .letter{
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height:0.85em;
     font-weight: bold;
-    border-bottom:solid 10px rgba(159, 195, 217, 1);
+    border-bottom:solid 1rem rgba(159, 195, 217, 1);
     color: #FFFBDC;
-    width: 180px;
-    margin-top:25px;
+    width: 18rem;
+    margin-top:2.5rem;
     margin-bottom: 19vh;
+}
+.mumber-introduction::before{
+    content: "";
+    width: 1px;
+    height: 300vh;
+    background: #F5FBDC;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-46.5vw);
+    top: 12rem;
 }
